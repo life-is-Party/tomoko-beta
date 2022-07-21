@@ -1,0 +1,32 @@
+.magnifying_glass {
+    display: inline-block;
+    position: relative;
+    width: 1em;
+    height: 1em;
+    color: #b12;
+    font-size: 20px;
+}
+.magnifying_glass::before {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0.7em;
+    height: 0.7em;
+    box-sizing: border-box;
+    border: 0.15em solid currentColor;
+    border-radius: 50%;
+    background-color: #fff;
+    content: "";
+}
+.magnifying_glass::after {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    z-index: -1;
+    transform: rotate(-45deg);
+    width: 0.15em;
+    height: 1em;
+    box-sizing: border-box;
+    background-color: currentColor;
+    content: "";
+}
