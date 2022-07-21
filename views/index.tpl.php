@@ -14,9 +14,10 @@
     <li class="nav-item">
       <a href="#search_songs" class="nav-link" data-toggle="tab">楽曲検索</a><!-- .nav-link -->
     </li><!-- .nav-item -->
-    <li class="nav-item">
-      <a href="#place_ranking" class="nav-link" data-toggle="tab">会場ランク</a><!-- .nav-link -->
-    </li><!-- .nav-item -->
+     
+<!--     <li class="nav-item">
+      <a href="#place_ranking" class="nav-link" data-toggle="tab">会場ランク</a>
+    </li>-->
 
     
   </ul><!-- .nav nav-tabs -->
@@ -31,9 +32,11 @@
       <div id="search_songs" class="tab-pane">
         <iframe src="song_search.php"></iframe>
       </div><!-- .tab-pane -->
-      <div id="place_ranking" class="tab-pane">
+     
+<!--       <div id="place_ranking" class="tab-pane">
         <iframe src="place_ranking.php"></iframe>
-      </div><!-- .tab-pane -->
+      </div> -->
+     
     </div><!-- .tab-content -->
   <!-- </div> -->
 
